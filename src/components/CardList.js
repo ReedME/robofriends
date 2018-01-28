@@ -13,7 +13,7 @@ const CardList = ({ robots }) => {
             />
           );
   })
-  if (robots.length === 0){
+  if (!robots.length){
     return(
     <div>
       <h1> LOADING . . . </h1>
