@@ -1,0 +1,17 @@
+@font-face {
+font-family: 'Auto Mission';
+font-style: normal;
+font-weight: normal;
+src: local('Auto Mission'), url('Auto Mission.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Auto Mission';
+  font-weight: 200;
+  color: #262628;
+}
+
+hr {
+	height: 1px;
+
+}
