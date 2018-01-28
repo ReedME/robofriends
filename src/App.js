@@ -19,9 +19,10 @@ class App extends React.Component {
   }
 
   render (){
-    const filteredRobots = this.state.robots.filter(robot =>{
-    return robots.name.toLowerCase().includes(this.state.searchField.toLowerCase());
-  })
+    const { robots, searchfield } = this.state;
+    const filteredRobots = robots.filter(robot =>{
+      return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+    })
   return(
     <div className='tc'>
       <h1>RoboFriends Contacts List</h1>
